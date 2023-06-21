@@ -1,0 +1,124 @@
+body{
+    background-color: #DFE8FF;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+    margin-top: 15px;
+    min-height: 100vh;
+    cursor: zoom-in;
+    font-size: 16px;
+    overflow-x: hidden;
+
+
+}
+img{
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.card{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 390px;
+
+
+
+}
+.card-content{
+    /* padding: 5px; */
+    font-family: Times;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 40px;
+
+    
+}
+div{
+    display: inline-block;
+}
+.summary{
+    width: 90%;
+}
+.subcriptions{
+    border: 0px solid green;
+    width:90%;
+    border-radius: 10px;
+    background-color: #F8F9FE;
+    
+    
+    
+    
+}
+.music-icon{
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-right: 10px;
+
+    
+}
+.charges{
+    margin: 0;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+
+}
+.annual-plan{
+    margin-right: 60px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+    
+
+}
+.cost{
+    margin: 0;
+    margin-right: 60px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+.change-link{
+    vertical-align: top;
+    margin-top: 25px;
+    color: #382BDC;
+    font-weight: bold;
+    font-size: 16px;
+    
+
+}
+
+.buttons{
+    padding-top: 40px;
+
+}
+.buttons :first-child{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #1e0ce7;
+    color: white;
+    box-shadow: 2px 20px 5px #e7e8f6;
+}
+.cancel-button{
+    border: none;
+    background: none;
+}  
+
+    
+
+
+
